@@ -41,7 +41,15 @@
     ];
 
 // visualizzo le informazioni dell'array
-var_dump($hotels);
+#var_dump($hotels);
+
+
+// cilco per stampare informazioni degli array
+foreach($hotels as $hotel_class) {
+   foreach($hotel_class as $hotel) {
+    echo $hotel;
+   }
+}
 
 ?>
 
